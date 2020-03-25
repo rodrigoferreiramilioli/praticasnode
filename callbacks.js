@@ -28,7 +28,7 @@ var y = (addTemp, response)=>{
     })
 }
 
-y(200, (data,err) => {
+y(200, (data) => {
     console.log(data);
 });
 
@@ -56,6 +56,6 @@ var v = (addTemp, callback) => {
     })
 }
 
-v(10, (data, err) => {
+v(10, (data) => {
     console.log(data);  
 })
